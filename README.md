@@ -5,4 +5,5 @@ application also provides you info such as max and min temperature. The svg anim
 
 <h2>## Screenshots</h2>
 * http://prntscr.com/plt9u2
-<img src="http://prntscr.com/plta0t">
+
+![App screnshoot](http://prntscr.com/plta0t)
