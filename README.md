@@ -4,6 +4,9 @@ JavaScript (API driven) weather app. App that shows you weather on your current 
 application also provides you info such as max and min temperature. The svg animation changes depending the weather (clouldy, sunny, etc..)</p>
 
 <h2>## Screenshots</h2>
-* http://prntscr.com/plt9u2
 
-![App screnshoot](https://ibb.co/ft6MvKL)
+In fahrenheit:
+![App screnshoot](/Screenshot_2.png)
+
+In celsius:
+![App screnshoot](/Screenshot_1.png)
