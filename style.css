@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    background: linear-gradient(rgb(47,150,160), rgb(48,72,143));
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.timezone, .temperature{
+    width: 50%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+.temperature{
+    flex-direction: column;
+    text-align: center;
+}
+.degree-section{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.temperature-degree{
+    font-size: 40px;
+}
+
+.metric{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.low-high{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.max, .low{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.max h3{
+    margin: 10px;
+}
+.low h3{
+    margin: 10px;
+}
+
+.max span, .low span{
+    font-size: 30px;
+}
+
+.max .metric, .low .metric{
+    font-size: 20px !important;
+}

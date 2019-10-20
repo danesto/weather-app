@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timezone">
+        <div class="city">
+            <h1>
+                Belgrade
+            </h1>
+        </div>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">15</h2>
+            <span class="metric">F</span>
+        </div>
+        <div class="temperature-description">No need for umbrela today!</div>
+    </div>
+    <div class="low-high">
+        <div class="max">
+            <h3>Max: </h3>
+            <span></span>
+            <span class="metric" id="maxMetric">F</span>
+        </div>
+        <div class="low">
+            <h3>Lowest: </h3>
+            <span></span>
+            <span class="metric" id="lowMetric">F</span>
+        </div>
+    </div>
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
