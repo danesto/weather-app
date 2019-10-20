@@ -5,8 +5,8 @@ application also provides you info such as max and min temperature. The svg anim
 
 <h2>## Screenshots</h2>
 
-In fahrenheit:
+In fahrenheit: </br>
 ![App screnshoot](/Screenshot_2.png)
 
-In celsius:
+In celsius: </br>
 ![App screnshoot](/Screenshot_1.png)
